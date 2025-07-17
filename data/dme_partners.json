@@ -1,0 +1,2330 @@
+[
+  {
+    "partner_id": "DME001",
+    "partner_name": "Partner 1 Medical Supplies",
+    "contact_info": {
+      "phone": "+1-800-555-1001",
+      "email": "contact@partner1medicalsupplies.com"
+    },
+    "status": "active",
+    "contracted_payor_status": true,
+    "partner_rating": 4.1,
+    "previous_delivery_satisfaction_rating": 3.2,
+    "state": "TX",
+    "contracts": [
+      {
+        "contract_id": "CON10",
+        "type": "exclusive",
+        "delivery_SLA": {
+          "product_type_id": "PT073",
+          "payor_type_id": "PAYOR007",
+          "expected_delivery_days": 6
+        },
+        "document_id": "DOC10"
+      }
+    ],
+    "delivery_sla": [
+      {
+        "delivery_id": "DEL10",
+        "product_type_id": "PT096",
+        "payor_type_id": "PAYOR006",
+        "expected_delivery_days": 7
+      },
+      {
+        "delivery_id": "DEL11",
+        "product_type_id": "PT083",
+        "payor_type_id": "PAYOR002",
+        "expected_delivery_days": 5
+      },
+      {
+        "delivery_id": "DEL12",
+        "product_type_id": "PT023",
+        "payor_type_id": "PAYOR004",
+        "expected_delivery_days": 4
+      }
+    ],
+    "product_catalog": [
+      {
+        "manufacturer": "DERMARITE",
+        "sku": "DER0073",
+        "hcpcs_code": "A62133",
+        "product_name": "DERMARITE Dressing 73",
+        "protocol_step_option": "custom"
+      },
+      {
+        "manufacturer": "3M",
+        "sku": "3M0085",
+        "hcpcs_code": "A62145",
+        "product_name": "3M Dressing 85",
+        "protocol_step_option": "custom"
+      },
+      {
+        "manufacturer": "MEDLINE",
+        "sku": "MED0024",
+        "hcpcs_code": "A6284",
+        "product_name": "MEDLINE Dressing 24",
+        "protocol_step_option": "standard"
+      },
+      {
+        "manufacturer": "3M",
+        "sku": "3M0048",
+        "hcpcs_code": "A62108",
+        "product_name": "3M Dressing 48",
+        "protocol_step_option": "custom"
+      },
+      {
+        "manufacturer": "3M",
+        "sku": "3M0010",
+        "hcpcs_code": "A6270",
+        "product_name": "3M Dressing 10",
+        "protocol_step_option": "custom"
+      },
+      {
+        "manufacturer": "MEDLINE",
+        "sku": "MED0036",
+        "hcpcs_code": "A6296",
+        "product_name": "MEDLINE Dressing 36",
+        "protocol_step_option": "advanced"
+      }
+    ]
+  },
+  {
+    "partner_id": "DME002",
+    "partner_name": "Partner 2 Medical Supplies",
+    "contact_info": {
+      "phone": "+1-800-555-1002",
+      "email": "contact@partner2medicalsupplies.com"
+    },
+    "status": "active",
+    "contracted_payor_status": true,
+    "partner_rating": 4.3,
+    "previous_delivery_satisfaction_rating": 4.4,
+    "state": "CA",
+    "contracts": [
+      {
+        "contract_id": "CON20",
+        "type": "exclusive",
+        "delivery_SLA": {
+          "product_type_id": "PT029",
+          "payor_type_id": "PAYOR004",
+          "expected_delivery_days": 6
+        },
+        "document_id": "DOC20"
+      },
+      {
+        "contract_id": "CON21",
+        "type": "non-exclusive",
+        "delivery_SLA": {
+          "product_type_id": "PT060",
+          "payor_type_id": "PAYOR001",
+          "expected_delivery_days": 3
+        },
+        "document_id": "DOC21"
+      }
+    ],
+    "delivery_sla": [
+      {
+        "delivery_id": "DEL20",
+        "product_type_id": "PT049",
+        "payor_type_id": "PAYOR004",
+        "expected_delivery_days": 6
+      }
+    ],
+    "product_catalog": [
+      {
+        "manufacturer": "SMITH&NEPHEW",
+        "sku": "SMI0056",
+        "hcpcs_code": "A62116",
+        "product_name": "SMITH&NEPHEW Dressing 56",
+        "protocol_step_option": "standard"
+      },
+      {
+        "manufacturer": "CARDINAL",
+        "sku": "CAR0058",
+        "hcpcs_code": "A62118",
+        "product_name": "CARDINAL Dressing 58",
+        "protocol_step_option": "advanced"
+      },
+      {
+        "manufacturer": "SMITH&NEPHEW",
+        "sku": "SMI0079",
+        "hcpcs_code": "A62139",
+        "product_name": "SMITH&NEPHEW Dressing 79",
+        "protocol_step_option": "advanced"
+      },
+      {
+        "manufacturer": "DERMARITE",
+        "sku": "DER0009",
+        "hcpcs_code": "A6269",
+        "product_name": "DERMARITE Dressing 9",
+        "protocol_step_option": "advanced"
+      },
+      {
+        "manufacturer": "DERMARITE",
+        "sku": "DER0017",
+        "hcpcs_code": "A6277",
+        "product_name": "DERMARITE Dressing 17",
+        "protocol_step_option": "advanced"
+      },
+      {
+        "manufacturer": "CARDINAL",
+        "sku": "CAR0043",
+        "hcpcs_code": "A62103",
+        "product_name": "CARDINAL Dressing 43",
+        "protocol_step_option": "custom"
+      },
+      {
+        "manufacturer": "DERMARITE",
+        "sku": "DER0073",
+        "hcpcs_code": "A62133",
+        "product_name": "DERMARITE Dressing 73",
+        "protocol_step_option": "custom"
+      },
+      {
+        "manufacturer": "3M",
+        "sku": "3M0027",
+        "hcpcs_code": "A6287",
+        "product_name": "3M Dressing 27",
+        "protocol_step_option": "custom"
+      },
+      {
+        "manufacturer": "3M",
+        "sku": "3M0044",
+        "hcpcs_code": "A62104",
+        "product_name": "3M Dressing 44",
+        "protocol_step_option": "custom"
+      },
+      {
+        "manufacturer": "CARDINAL",
+        "sku": "CAR0077",
+        "hcpcs_code": "A62137",
+        "product_name": "CARDINAL Dressing 77",
+        "protocol_step_option": "standard"
+      },
+      {
+        "manufacturer": "MEDLINE",
+        "sku": "MED0024",
+        "hcpcs_code": "A6284",
+        "product_name": "MEDLINE Dressing 24",
+        "protocol_step_option": "standard"
+      }
+    ]
+  },
+  {
+    "partner_id": "DME003",
+    "partner_name": "Partner 3 Medical Supplies",
+    "contact_info": {
+      "phone": "+1-800-555-1003",
+      "email": "contact@partner3medicalsupplies.com"
+    },
+    "status": "active",
+    "contracted_payor_status": true,
+    "partner_rating": 4.5,
+    "previous_delivery_satisfaction_rating": 4.2,
+    "state": "NY",
+    "contracts": [
+      {
+        "contract_id": "CON30",
+        "type": "standard",
+        "delivery_SLA": {
+          "product_type_id": "PT072",
+          "payor_type_id": "PAYOR008",
+          "expected_delivery_days": 6
+        },
+        "document_id": "DOC30"
+      }
+    ],
+    "delivery_sla": [
+      {
+        "delivery_id": "DEL30",
+        "product_type_id": "PT035",
+        "payor_type_id": "PAYOR004",
+        "expected_delivery_days": 2
+      },
+      {
+        "delivery_id": "DEL31",
+        "product_type_id": "PT003",
+        "payor_type_id": "PAYOR007",
+        "expected_delivery_days": 7
+      }
+    ],
+    "product_catalog": [
+      {
+        "manufacturer": "CARDINAL",
+        "sku": "CAR0070",
+        "hcpcs_code": "A62130",
+        "product_name": "CARDINAL Dressing 70",
+        "protocol_step_option": "advanced"
+      },
+      {
+        "manufacturer": "MEDLINE",
+        "sku": "MED0022",
+        "hcpcs_code": "A6282",
+        "product_name": "MEDLINE Dressing 22",
+        "protocol_step_option": "standard"
+      },
+      {
+        "manufacturer": "DERMARITE",
+        "sku": "DER0071",
+        "hcpcs_code": "A62131",
+        "product_name": "DERMARITE Dressing 71",
+        "protocol_step_option": "standard"
+      },
+      {
+        "manufacturer": "3M",
+        "sku": "3M0098",
+        "hcpcs_code": "A62158",
+        "product_name": "3M Dressing 98",
+        "protocol_step_option": "advanced"
+      },
+      {
+        "manufacturer": "3M",
+        "sku": "3M0075",
+        "hcpcs_code": "A62135",
+        "product_name": "3M Dressing 75",
+        "protocol_step_option": "custom"
+      },
+      {
+        "manufacturer": "DERMARITE",
+        "sku": "DER0007",
+        "hcpcs_code": "A6267",
+        "product_name": "DERMARITE Dressing 7",
+        "protocol_step_option": "custom"
+      },
+      {
+        "manufacturer": "3M",
+        "sku": "3M0089",
+        "hcpcs_code": "A62149",
+        "product_name": "3M Dressing 89",
+        "protocol_step_option": "advanced"
+      },
+      {
+        "manufacturer": "SMITH&NEPHEW",
+        "sku": "SMI0019",
+        "hcpcs_code": "A6279",
+        "product_name": "SMITH&NEPHEW Dressing 19",
+        "protocol_step_option": "standard"
+      },
+      {
+        "manufacturer": "DERMARITE",
+        "sku": "DER0017",
+        "hcpcs_code": "A6277",
+        "product_name": "DERMARITE Dressing 17",
+        "protocol_step_option": "advanced"
+      },
+      {
+        "manufacturer": "CARDINAL",
+        "sku": "CAR0058",
+        "hcpcs_code": "A62118",
+        "product_name": "CARDINAL Dressing 58",
+        "protocol_step_option": "advanced"
+      },
+      {
+        "manufacturer": "MEDLINE",
+        "sku": "MED0066",
+        "hcpcs_code": "A62126",
+        "product_name": "MEDLINE Dressing 66",
+        "protocol_step_option": "advanced"
+      },
+      {
+        "manufacturer": "3M",
+        "sku": "3M0097",
+        "hcpcs_code": "A62157",
+        "product_name": "3M Dressing 97",
+        "protocol_step_option": "standard"
+      },
+      {
+        "manufacturer": "DERMARITE",
+        "sku": "DER0082",
+        "hcpcs_code": "A62142",
+        "product_name": "DERMARITE Dressing 82",
+        "protocol_step_option": "standard"
+      }
+    ]
+  },
+  {
+    "partner_id": "DME004",
+    "partner_name": "Partner 4 Medical Supplies",
+    "contact_info": {
+      "phone": "+1-800-555-1004",
+      "email": "contact@partner4medicalsupplies.com"
+    },
+    "status": "inactive",
+    "contracted_payor_status": true,
+    "partner_rating": 4.4,
+    "previous_delivery_satisfaction_rating": 3.6,
+    "state": "CA",
+    "contracts": [
+      {
+        "contract_id": "CON40",
+        "type": "standard",
+        "delivery_SLA": {
+          "product_type_id": "PT029",
+          "payor_type_id": "PAYOR004",
+          "expected_delivery_days": 2
+        },
+        "document_id": "DOC40"
+      }
+    ],
+    "delivery_sla": [
+      {
+        "delivery_id": "DEL40",
+        "product_type_id": "PT077",
+        "payor_type_id": "PAYOR007",
+        "expected_delivery_days": 6
+      }
+    ],
+    "product_catalog": [
+      {
+        "manufacturer": "DERMARITE",
+        "sku": "DER0062",
+        "hcpcs_code": "A62122",
+        "product_name": "DERMARITE Dressing 62",
+        "protocol_step_option": "advanced"
+      },
+      {
+        "manufacturer": "CARDINAL",
+        "sku": "CAR0077",
+        "hcpcs_code": "A62137",
+        "product_name": "CARDINAL Dressing 77",
+        "protocol_step_option": "standard"
+      },
+      {
+        "manufacturer": "3M",
+        "sku": "3M0089",
+        "hcpcs_code": "A62149",
+        "product_name": "3M Dressing 89",
+        "protocol_step_option": "advanced"
+      },
+      {
+        "manufacturer": "MEDLINE",
+        "sku": "MED0022",
+        "hcpcs_code": "A6282",
+        "product_name": "MEDLINE Dressing 22",
+        "protocol_step_option": "standard"
+      },
+      {
+        "manufacturer": "MEDLINE",
+        "sku": "MED0068",
+        "hcpcs_code": "A62128",
+        "product_name": "MEDLINE Dressing 68",
+        "protocol_step_option": "advanced"
+      },
+      {
+        "manufacturer": "3M",
+        "sku": "3M0002",
+        "hcpcs_code": "A6262",
+        "product_name": "3M Dressing 2",
+        "protocol_step_option": "advanced"
+      },
+      {
+        "manufacturer": "MEDLINE",
+        "sku": "MED0035",
+        "hcpcs_code": "A6295",
+        "product_name": "MEDLINE Dressing 35",
+        "protocol_step_option": "advanced"
+      },
+      {
+        "manufacturer": "3M",
+        "sku": "3M0051",
+        "hcpcs_code": "A62111",
+        "product_name": "3M Dressing 51",
+        "protocol_step_option": "standard"
+      },
+      {
+        "manufacturer": "DERMARITE",
+        "sku": "DER0064",
+        "hcpcs_code": "A62124",
+        "product_name": "DERMARITE Dressing 64",
+        "protocol_step_option": "standard"
+      },
+      {
+        "manufacturer": "CARDINAL",
+        "sku": "CAR0030",
+        "hcpcs_code": "A6290",
+        "product_name": "CARDINAL Dressing 30",
+        "protocol_step_option": "custom"
+      },
+      {
+        "manufacturer": "DERMARITE",
+        "sku": "DER0072",
+        "hcpcs_code": "A62132",
+        "product_name": "DERMARITE Dressing 72",
+        "protocol_step_option": "standard"
+      },
+      {
+        "manufacturer": "SMITH&NEPHEW",
+        "sku": "SMI0003",
+        "hcpcs_code": "A6263",
+        "product_name": "SMITH&NEPHEW Dressing 3",
+        "protocol_step_option": "standard"
+      },
+      {
+        "manufacturer": "SMITH&NEPHEW",
+        "sku": "SMI0069",
+        "hcpcs_code": "A62129",
+        "product_name": "SMITH&NEPHEW Dressing 69",
+        "protocol_step_option": "advanced"
+      },
+      {
+        "manufacturer": "MEDLINE",
+        "sku": "MED0015",
+        "hcpcs_code": "A6275",
+        "product_name": "MEDLINE Dressing 15",
+        "protocol_step_option": "standard"
+      }
+    ]
+  },
+  {
+    "partner_id": "DME005",
+    "partner_name": "Partner 5 Medical Supplies",
+    "contact_info": {
+      "phone": "+1-800-555-1005",
+      "email": "contact@partner5medicalsupplies.com"
+    },
+    "status": "active",
+    "contracted_payor_status": false,
+    "partner_rating": 4.4,
+    "previous_delivery_satisfaction_rating": 4.5,
+    "state": "NY",
+    "contracts": [
+      {
+        "contract_id": "CON50",
+        "type": "standard",
+        "delivery_SLA": {
+          "product_type_id": "PT065",
+          "payor_type_id": "PAYOR009",
+          "expected_delivery_days": 7
+        },
+        "document_id": "DOC50"
+      },
+      {
+        "contract_id": "CON51",
+        "type": "non-exclusive",
+        "delivery_SLA": {
+          "product_type_id": "PT064",
+          "payor_type_id": "PAYOR009",
+          "expected_delivery_days": 5
+        },
+        "document_id": "DOC51"
+      }
+    ],
+    "delivery_sla": [
+      {
+        "delivery_id": "DEL50",
+        "product_type_id": "PT089",
+        "payor_type_id": "PAYOR010",
+        "expected_delivery_days": 3
+      },
+      {
+        "delivery_id": "DEL51",
+        "product_type_id": "PT086",
+        "payor_type_id": "PAYOR004",
+        "expected_delivery_days": 4
+      },
+      {
+        "delivery_id": "DEL52",
+        "product_type_id": "PT017",
+        "payor_type_id": "PAYOR006",
+        "expected_delivery_days": 7
+      }
+    ],
+    "product_catalog": [
+      {
+        "manufacturer": "3M",
+        "sku": "3M0049",
+        "hcpcs_code": "A62109",
+        "product_name": "3M Dressing 49",
+        "protocol_step_option": "advanced"
+      },
+      {
+        "manufacturer": "MEDLINE",
+        "sku": "MED0015",
+        "hcpcs_code": "A6275",
+        "product_name": "MEDLINE Dressing 15",
+        "protocol_step_option": "standard"
+      },
+      {
+        "manufacturer": "SMITH&NEPHEW",
+        "sku": "SMI0045",
+        "hcpcs_code": "A62105",
+        "product_name": "SMITH&NEPHEW Dressing 45",
+        "protocol_step_option": "advanced"
+      },
+      {
+        "manufacturer": "3M",
+        "sku": "3M0016",
+        "hcpcs_code": "A6276",
+        "product_name": "3M Dressing 16",
+        "protocol_step_option": "advanced"
+      },
+      {
+        "manufacturer": "DERMARITE",
+        "sku": "DER0074",
+        "hcpcs_code": "A62134",
+        "product_name": "DERMARITE Dressing 74",
+        "protocol_step_option": "custom"
+      },
+      {
+        "manufacturer": "CARDINAL",
+        "sku": "CAR0077",
+        "hcpcs_code": "A62137",
+        "product_name": "CARDINAL Dressing 77",
+        "protocol_step_option": "standard"
+      },
+      {
+        "manufacturer": "DERMARITE",
+        "sku": "DER0073",
+        "hcpcs_code": "A62133",
+        "product_name": "DERMARITE Dressing 73",
+        "protocol_step_option": "custom"
+      }
+    ]
+  },
+  {
+    "partner_id": "DME006",
+    "partner_name": "Partner 6 Medical Supplies",
+    "contact_info": {
+      "phone": "+1-800-555-1006",
+      "email": "contact@partner6medicalsupplies.com"
+    },
+    "status": "active",
+    "contracted_payor_status": true,
+    "partner_rating": 4.6,
+    "previous_delivery_satisfaction_rating": 3.8,
+    "state": "TX",
+    "contracts": [
+      {
+        "contract_id": "CON60",
+        "type": "exclusive",
+        "delivery_SLA": {
+          "product_type_id": "PT093",
+          "payor_type_id": "PAYOR003",
+          "expected_delivery_days": 5
+        },
+        "document_id": "DOC60"
+      },
+      {
+        "contract_id": "CON61",
+        "type": "standard",
+        "delivery_SLA": {
+          "product_type_id": "PT028",
+          "payor_type_id": "PAYOR009",
+          "expected_delivery_days": 7
+        },
+        "document_id": "DOC61"
+      }
+    ],
+    "delivery_sla": [
+      {
+        "delivery_id": "DEL60",
+        "product_type_id": "PT098",
+        "payor_type_id": "PAYOR008",
+        "expected_delivery_days": 2
+      }
+    ],
+    "product_catalog": [
+      {
+        "manufacturer": "DERMARITE",
+        "sku": "DER0007",
+        "hcpcs_code": "A6267",
+        "product_name": "DERMARITE Dressing 7",
+        "protocol_step_option": "custom"
+      },
+      {
+        "manufacturer": "CARDINAL",
+        "sku": "CAR0030",
+        "hcpcs_code": "A6290",
+        "product_name": "CARDINAL Dressing 30",
+        "protocol_step_option": "custom"
+      },
+      {
+        "manufacturer": "3M",
+        "sku": "3M0021",
+        "hcpcs_code": "A6281",
+        "product_name": "3M Dressing 21",
+        "protocol_step_option": "standard"
+      },
+      {
+        "manufacturer": "3M",
+        "sku": "3M0018",
+        "hcpcs_code": "A6278",
+        "product_name": "3M Dressing 18",
+        "protocol_step_option": "advanced"
+      },
+      {
+        "manufacturer": "MEDLINE",
+        "sku": "MED0015",
+        "hcpcs_code": "A6275",
+        "product_name": "MEDLINE Dressing 15",
+        "protocol_step_option": "standard"
+      },
+      {
+        "manufacturer": "CARDINAL",
+        "sku": "CAR0012",
+        "hcpcs_code": "A6272",
+        "product_name": "CARDINAL Dressing 12",
+        "protocol_step_option": "custom"
+      }
+    ]
+  },
+  {
+    "partner_id": "DME007",
+    "partner_name": "Partner 7 Medical Supplies",
+    "contact_info": {
+      "phone": "+1-800-555-1007",
+      "email": "contact@partner7medicalsupplies.com"
+    },
+    "status": "active",
+    "contracted_payor_status": true,
+    "partner_rating": 3.7,
+    "previous_delivery_satisfaction_rating": 4.0,
+    "state": "NY",
+    "contracts": [
+      {
+        "contract_id": "CON70",
+        "type": "non-exclusive",
+        "delivery_SLA": {
+          "product_type_id": "PT081",
+          "payor_type_id": "PAYOR007",
+          "expected_delivery_days": 6
+        },
+        "document_id": "DOC70"
+      }
+    ],
+    "delivery_sla": [
+      {
+        "delivery_id": "DEL70",
+        "product_type_id": "PT011",
+        "payor_type_id": "PAYOR001",
+        "expected_delivery_days": 3
+      }
+    ],
+    "product_catalog": [
+      {
+        "manufacturer": "MEDLINE",
+        "sku": "MED0001",
+        "hcpcs_code": "A6261",
+        "product_name": "MEDLINE Dressing 1",
+        "protocol_step_option": "custom"
+      },
+      {
+        "manufacturer": "3M",
+        "sku": "3M0044",
+        "hcpcs_code": "A62104",
+        "product_name": "3M Dressing 44",
+        "protocol_step_option": "custom"
+      },
+      {
+        "manufacturer": "MEDLINE",
+        "sku": "MED0091",
+        "hcpcs_code": "A62151",
+        "product_name": "MEDLINE Dressing 91",
+        "protocol_step_option": "custom"
+      },
+      {
+        "manufacturer": "DERMARITE",
+        "sku": "DER0009",
+        "hcpcs_code": "A6269",
+        "product_name": "DERMARITE Dressing 9",
+        "protocol_step_option": "advanced"
+      },
+      {
+        "manufacturer": "CARDINAL",
+        "sku": "CAR0058",
+        "hcpcs_code": "A62118",
+        "product_name": "CARDINAL Dressing 58",
+        "protocol_step_option": "advanced"
+      },
+      {
+        "manufacturer": "MEDLINE",
+        "sku": "MED0014",
+        "hcpcs_code": "A6274",
+        "product_name": "MEDLINE Dressing 14",
+        "protocol_step_option": "standard"
+      },
+      {
+        "manufacturer": "SMITH&NEPHEW",
+        "sku": "SMI0069",
+        "hcpcs_code": "A62129",
+        "product_name": "SMITH&NEPHEW Dressing 69",
+        "protocol_step_option": "advanced"
+      },
+      {
+        "manufacturer": "SMITH&NEPHEW",
+        "sku": "SMI0100",
+        "hcpcs_code": "A62160",
+        "product_name": "SMITH&NEPHEW Dressing 100",
+        "protocol_step_option": "custom"
+      },
+      {
+        "manufacturer": "3M",
+        "sku": "3M0033",
+        "hcpcs_code": "A6293",
+        "product_name": "3M Dressing 33",
+        "protocol_step_option": "custom"
+      }
+    ]
+  },
+  {
+    "partner_id": "DME008",
+    "partner_name": "Partner 8 Medical Supplies",
+    "contact_info": {
+      "phone": "+1-800-555-1008",
+      "email": "contact@partner8medicalsupplies.com"
+    },
+    "status": "inactive",
+    "contracted_payor_status": true,
+    "partner_rating": 3.6,
+    "previous_delivery_satisfaction_rating": 4.4,
+    "state": "CA",
+    "contracts": [
+      {
+        "contract_id": "CON80",
+        "type": "non-exclusive",
+        "delivery_SLA": {
+          "product_type_id": "PT011",
+          "payor_type_id": "PAYOR003",
+          "expected_delivery_days": 7
+        },
+        "document_id": "DOC80"
+      },
+      {
+        "contract_id": "CON81",
+        "type": "exclusive",
+        "delivery_SLA": {
+          "product_type_id": "PT058",
+          "payor_type_id": "PAYOR010",
+          "expected_delivery_days": 2
+        },
+        "document_id": "DOC81"
+      }
+    ],
+    "delivery_sla": [
+      {
+        "delivery_id": "DEL80",
+        "product_type_id": "PT010",
+        "payor_type_id": "PAYOR009",
+        "expected_delivery_days": 2
+      },
+      {
+        "delivery_id": "DEL81",
+        "product_type_id": "PT003",
+        "payor_type_id": "PAYOR004",
+        "expected_delivery_days": 3
+      }
+    ],
+    "product_catalog": [
+      {
+        "manufacturer": "3M",
+        "sku": "3M0002",
+        "hcpcs_code": "A6262",
+        "product_name": "3M Dressing 2",
+        "protocol_step_option": "advanced"
+      },
+      {
+        "manufacturer": "SMITH&NEPHEW",
+        "sku": "SMI0088",
+        "hcpcs_code": "A62148",
+        "product_name": "SMITH&NEPHEW Dressing 88",
+        "protocol_step_option": "advanced"
+      },
+      {
+        "manufacturer": "3M",
+        "sku": "3M0028",
+        "hcpcs_code": "A6288",
+        "product_name": "3M Dressing 28",
+        "protocol_step_option": "advanced"
+      },
+      {
+        "manufacturer": "CARDINAL",
+        "sku": "CAR0030",
+        "hcpcs_code": "A6290",
+        "product_name": "CARDINAL Dressing 30",
+        "protocol_step_option": "custom"
+      },
+      {
+        "manufacturer": "CARDINAL",
+        "sku": "CAR0020",
+        "hcpcs_code": "A6280",
+        "product_name": "CARDINAL Dressing 20",
+        "protocol_step_option": "standard"
+      },
+      {
+        "manufacturer": "CARDINAL",
+        "sku": "CAR0032",
+        "hcpcs_code": "A6292",
+        "product_name": "CARDINAL Dressing 32",
+        "protocol_step_option": "custom"
+      },
+      {
+        "manufacturer": "3M",
+        "sku": "3M0039",
+        "hcpcs_code": "A6299",
+        "product_name": "3M Dressing 39",
+        "protocol_step_option": "custom"
+      },
+      {
+        "manufacturer": "3M",
+        "sku": "3M0075",
+        "hcpcs_code": "A62135",
+        "product_name": "3M Dressing 75",
+        "protocol_step_option": "custom"
+      },
+      {
+        "manufacturer": "CARDINAL",
+        "sku": "CAR0078",
+        "hcpcs_code": "A62138",
+        "product_name": "CARDINAL Dressing 78",
+        "protocol_step_option": "standard"
+      },
+      {
+        "manufacturer": "SMITH&NEPHEW",
+        "sku": "SMI0079",
+        "hcpcs_code": "A62139",
+        "product_name": "SMITH&NEPHEW Dressing 79",
+        "protocol_step_option": "advanced"
+      },
+      {
+        "manufacturer": "3M",
+        "sku": "3M0042",
+        "hcpcs_code": "A62102",
+        "product_name": "3M Dressing 42",
+        "protocol_step_option": "advanced"
+      }
+    ]
+  },
+  {
+    "partner_id": "DME009",
+    "partner_name": "Partner 9 Medical Supplies",
+    "contact_info": {
+      "phone": "+1-800-555-1009",
+      "email": "contact@partner9medicalsupplies.com"
+    },
+    "status": "active",
+    "contracted_payor_status": true,
+    "partner_rating": 4.7,
+    "previous_delivery_satisfaction_rating": 3.3,
+    "state": "TX",
+    "contracts": [
+      {
+        "contract_id": "CON90",
+        "type": "preferred",
+        "delivery_SLA": {
+          "product_type_id": "PT081",
+          "payor_type_id": "PAYOR010",
+          "expected_delivery_days": 3
+        },
+        "document_id": "DOC90"
+      },
+      {
+        "contract_id": "CON91",
+        "type": "standard",
+        "delivery_SLA": {
+          "product_type_id": "PT022",
+          "payor_type_id": "PAYOR010",
+          "expected_delivery_days": 2
+        },
+        "document_id": "DOC91"
+      }
+    ],
+    "delivery_sla": [
+      {
+        "delivery_id": "DEL90",
+        "product_type_id": "PT035",
+        "payor_type_id": "PAYOR004",
+        "expected_delivery_days": 4
+      },
+      {
+        "delivery_id": "DEL91",
+        "product_type_id": "PT079",
+        "payor_type_id": "PAYOR007",
+        "expected_delivery_days": 5
+      }
+    ],
+    "product_catalog": [
+      {
+        "manufacturer": "CARDINAL",
+        "sku": "CAR0043",
+        "hcpcs_code": "A62103",
+        "product_name": "CARDINAL Dressing 43",
+        "protocol_step_option": "custom"
+      },
+      {
+        "manufacturer": "CARDINAL",
+        "sku": "CAR0093",
+        "hcpcs_code": "A62153",
+        "product_name": "CARDINAL Dressing 93",
+        "protocol_step_option": "advanced"
+      },
+      {
+        "manufacturer": "3M",
+        "sku": "3M0027",
+        "hcpcs_code": "A6287",
+        "product_name": "3M Dressing 27",
+        "protocol_step_option": "custom"
+      },
+      {
+        "manufacturer": "3M",
+        "sku": "3M0097",
+        "hcpcs_code": "A62157",
+        "product_name": "3M Dressing 97",
+        "protocol_step_option": "standard"
+      },
+      {
+        "manufacturer": "CARDINAL",
+        "sku": "CAR0061",
+        "hcpcs_code": "A62121",
+        "product_name": "CARDINAL Dressing 61",
+        "protocol_step_option": "advanced"
+      },
+      {
+        "manufacturer": "CARDINAL",
+        "sku": "CAR0053",
+        "hcpcs_code": "A62113",
+        "product_name": "CARDINAL Dressing 53",
+        "protocol_step_option": "custom"
+      },
+      {
+        "manufacturer": "CARDINAL",
+        "sku": "CAR0025",
+        "hcpcs_code": "A6285",
+        "product_name": "CARDINAL Dressing 25",
+        "protocol_step_option": "standard"
+      },
+      {
+        "manufacturer": "3M",
+        "sku": "3M0089",
+        "hcpcs_code": "A62149",
+        "product_name": "3M Dressing 89",
+        "protocol_step_option": "advanced"
+      },
+      {
+        "manufacturer": "SMITH&NEPHEW",
+        "sku": "SMI0041",
+        "hcpcs_code": "A62101",
+        "product_name": "SMITH&NEPHEW Dressing 41",
+        "protocol_step_option": "standard"
+      },
+      {
+        "manufacturer": "CARDINAL",
+        "sku": "CAR0032",
+        "hcpcs_code": "A6292",
+        "product_name": "CARDINAL Dressing 32",
+        "protocol_step_option": "custom"
+      },
+      {
+        "manufacturer": "MEDLINE",
+        "sku": "MED0095",
+        "hcpcs_code": "A62155",
+        "product_name": "MEDLINE Dressing 95",
+        "protocol_step_option": "custom"
+      },
+      {
+        "manufacturer": "DERMARITE",
+        "sku": "DER0062",
+        "hcpcs_code": "A62122",
+        "product_name": "DERMARITE Dressing 62",
+        "protocol_step_option": "advanced"
+      }
+    ]
+  },
+  {
+    "partner_id": "DME010",
+    "partner_name": "Partner 10 Medical Supplies",
+    "contact_info": {
+      "phone": "+1-800-555-1010",
+      "email": "contact@partner10medicalsupplies.com"
+    },
+    "status": "active",
+    "contracted_payor_status": false,
+    "partner_rating": 4.1,
+    "previous_delivery_satisfaction_rating": 3.2,
+    "state": "TX",
+    "contracts": [
+      {
+        "contract_id": "CON100",
+        "type": "exclusive",
+        "delivery_SLA": {
+          "product_type_id": "PT070",
+          "payor_type_id": "PAYOR005",
+          "expected_delivery_days": 4
+        },
+        "document_id": "DOC100"
+      }
+    ],
+    "delivery_sla": [
+      {
+        "delivery_id": "DEL100",
+        "product_type_id": "PT046",
+        "payor_type_id": "PAYOR007",
+        "expected_delivery_days": 6
+      },
+      {
+        "delivery_id": "DEL101",
+        "product_type_id": "PT062",
+        "payor_type_id": "PAYOR005",
+        "expected_delivery_days": 5
+      }
+    ],
+    "product_catalog": [
+      {
+        "manufacturer": "3M",
+        "sku": "3M0021",
+        "hcpcs_code": "A6281",
+        "product_name": "3M Dressing 21",
+        "protocol_step_option": "standard"
+      },
+      {
+        "manufacturer": "SMITH&NEPHEW",
+        "sku": "SMI0079",
+        "hcpcs_code": "A62139",
+        "product_name": "SMITH&NEPHEW Dressing 79",
+        "protocol_step_option": "advanced"
+      },
+      {
+        "manufacturer": "3M",
+        "sku": "3M0098",
+        "hcpcs_code": "A62158",
+        "product_name": "3M Dressing 98",
+        "protocol_step_option": "advanced"
+      },
+      {
+        "manufacturer": "DERMARITE",
+        "sku": "DER0007",
+        "hcpcs_code": "A6267",
+        "product_name": "DERMARITE Dressing 7",
+        "protocol_step_option": "custom"
+      },
+      {
+        "manufacturer": "MEDLINE",
+        "sku": "MED0090",
+        "hcpcs_code": "A62150",
+        "product_name": "MEDLINE Dressing 90",
+        "protocol_step_option": "standard"
+      },
+      {
+        "manufacturer": "SMITH&NEPHEW",
+        "sku": "SMI0069",
+        "hcpcs_code": "A62129",
+        "product_name": "SMITH&NEPHEW Dressing 69",
+        "protocol_step_option": "advanced"
+      },
+      {
+        "manufacturer": "SMITH&NEPHEW",
+        "sku": "SMI0059",
+        "hcpcs_code": "A62119",
+        "product_name": "SMITH&NEPHEW Dressing 59",
+        "protocol_step_option": "standard"
+      },
+      {
+        "manufacturer": "3M",
+        "sku": "3M0044",
+        "hcpcs_code": "A62104",
+        "product_name": "3M Dressing 44",
+        "protocol_step_option": "custom"
+      },
+      {
+        "manufacturer": "DERMARITE",
+        "sku": "DER0067",
+        "hcpcs_code": "A62127",
+        "product_name": "DERMARITE Dressing 67",
+        "protocol_step_option": "standard"
+      },
+      {
+        "manufacturer": "3M",
+        "sku": "3M0048",
+        "hcpcs_code": "A62108",
+        "product_name": "3M Dressing 48",
+        "protocol_step_option": "custom"
+      }
+    ]
+  },
+  {
+    "partner_id": "DME011",
+    "partner_name": "Partner 11 Medical Supplies",
+    "contact_info": {
+      "phone": "+1-800-555-1011",
+      "email": "contact@partner11medicalsupplies.com"
+    },
+    "status": "active",
+    "contracted_payor_status": true,
+    "partner_rating": 4.5,
+    "previous_delivery_satisfaction_rating": 3.7,
+    "state": "CA",
+    "contracts": [
+      {
+        "contract_id": "CON110",
+        "type": "preferred",
+        "delivery_SLA": {
+          "product_type_id": "PT013",
+          "payor_type_id": "PAYOR005",
+          "expected_delivery_days": 6
+        },
+        "document_id": "DOC110"
+      },
+      {
+        "contract_id": "CON111",
+        "type": "exclusive",
+        "delivery_SLA": {
+          "product_type_id": "PT042",
+          "payor_type_id": "PAYOR001",
+          "expected_delivery_days": 6
+        },
+        "document_id": "DOC111"
+      }
+    ],
+    "delivery_sla": [
+      {
+        "delivery_id": "DEL110",
+        "product_type_id": "PT079",
+        "payor_type_id": "PAYOR002",
+        "expected_delivery_days": 5
+      },
+      {
+        "delivery_id": "DEL111",
+        "product_type_id": "PT097",
+        "payor_type_id": "PAYOR007",
+        "expected_delivery_days": 5
+      }
+    ],
+    "product_catalog": [
+      {
+        "manufacturer": "CARDINAL",
+        "sku": "CAR0061",
+        "hcpcs_code": "A62121",
+        "product_name": "CARDINAL Dressing 61",
+        "protocol_step_option": "advanced"
+      },
+      {
+        "manufacturer": "DERMARITE",
+        "sku": "DER0073",
+        "hcpcs_code": "A62133",
+        "product_name": "DERMARITE Dressing 73",
+        "protocol_step_option": "custom"
+      },
+      {
+        "manufacturer": "CARDINAL",
+        "sku": "CAR0030",
+        "hcpcs_code": "A6290",
+        "product_name": "CARDINAL Dressing 30",
+        "protocol_step_option": "custom"
+      },
+      {
+        "manufacturer": "MEDLINE",
+        "sku": "MED0015",
+        "hcpcs_code": "A6275",
+        "product_name": "MEDLINE Dressing 15",
+        "protocol_step_option": "standard"
+      },
+      {
+        "manufacturer": "DERMARITE",
+        "sku": "DER0074",
+        "hcpcs_code": "A62134",
+        "product_name": "DERMARITE Dressing 74",
+        "protocol_step_option": "custom"
+      },
+      {
+        "manufacturer": "DERMARITE",
+        "sku": "DER0007",
+        "hcpcs_code": "A6267",
+        "product_name": "DERMARITE Dressing 7",
+        "protocol_step_option": "custom"
+      },
+      {
+        "manufacturer": "SMITH&NEPHEW",
+        "sku": "SMI0055",
+        "hcpcs_code": "A62115",
+        "product_name": "SMITH&NEPHEW Dressing 55",
+        "protocol_step_option": "custom"
+      },
+      {
+        "manufacturer": "3M",
+        "sku": "3M0049",
+        "hcpcs_code": "A62109",
+        "product_name": "3M Dressing 49",
+        "protocol_step_option": "advanced"
+      },
+      {
+        "manufacturer": "DERMARITE",
+        "sku": "DER0067",
+        "hcpcs_code": "A62127",
+        "product_name": "DERMARITE Dressing 67",
+        "protocol_step_option": "standard"
+      },
+      {
+        "manufacturer": "DERMARITE",
+        "sku": "DER0062",
+        "hcpcs_code": "A62122",
+        "product_name": "DERMARITE Dressing 62",
+        "protocol_step_option": "advanced"
+      },
+      {
+        "manufacturer": "MEDLINE",
+        "sku": "MED0014",
+        "hcpcs_code": "A6274",
+        "product_name": "MEDLINE Dressing 14",
+        "protocol_step_option": "standard"
+      },
+      {
+        "manufacturer": "3M",
+        "sku": "3M0085",
+        "hcpcs_code": "A62145",
+        "product_name": "3M Dressing 85",
+        "protocol_step_option": "custom"
+      }
+    ]
+  },
+  {
+    "partner_id": "DME012",
+    "partner_name": "Partner 12 Medical Supplies",
+    "contact_info": {
+      "phone": "+1-800-555-1012",
+      "email": "contact@partner12medicalsupplies.com"
+    },
+    "status": "inactive",
+    "contracted_payor_status": true,
+    "partner_rating": 4.1,
+    "previous_delivery_satisfaction_rating": 3.2,
+    "state": "CA",
+    "contracts": [
+      {
+        "contract_id": "CON120",
+        "type": "non-exclusive",
+        "delivery_SLA": {
+          "product_type_id": "PT069",
+          "payor_type_id": "PAYOR005",
+          "expected_delivery_days": 4
+        },
+        "document_id": "DOC120"
+      },
+      {
+        "contract_id": "CON121",
+        "type": "standard",
+        "delivery_SLA": {
+          "product_type_id": "PT071",
+          "payor_type_id": "PAYOR003",
+          "expected_delivery_days": 2
+        },
+        "document_id": "DOC121"
+      }
+    ],
+    "delivery_sla": [
+      {
+        "delivery_id": "DEL120",
+        "product_type_id": "PT067",
+        "payor_type_id": "PAYOR010",
+        "expected_delivery_days": 5
+      },
+      {
+        "delivery_id": "DEL121",
+        "product_type_id": "PT088",
+        "payor_type_id": "PAYOR008",
+        "expected_delivery_days": 5
+      }
+    ],
+    "product_catalog": [
+      {
+        "manufacturer": "SMITH&NEPHEW",
+        "sku": "SMI0086",
+        "hcpcs_code": "A62146",
+        "product_name": "SMITH&NEPHEW Dressing 86",
+        "protocol_step_option": "standard"
+      },
+      {
+        "manufacturer": "SMITH&NEPHEW",
+        "sku": "SMI0003",
+        "hcpcs_code": "A6263",
+        "product_name": "SMITH&NEPHEW Dressing 3",
+        "protocol_step_option": "standard"
+      },
+      {
+        "manufacturer": "MEDLINE",
+        "sku": "MED0037",
+        "hcpcs_code": "A6297",
+        "product_name": "MEDLINE Dressing 37",
+        "protocol_step_option": "advanced"
+      },
+      {
+        "manufacturer": "3M",
+        "sku": "3M0002",
+        "hcpcs_code": "A6262",
+        "product_name": "3M Dressing 2",
+        "protocol_step_option": "advanced"
+      },
+      {
+        "manufacturer": "SMITH&NEPHEW",
+        "sku": "SMI0065",
+        "hcpcs_code": "A62125",
+        "product_name": "SMITH&NEPHEW Dressing 65",
+        "protocol_step_option": "advanced"
+      },
+      {
+        "manufacturer": "SMITH&NEPHEW",
+        "sku": "SMI0063",
+        "hcpcs_code": "A62123",
+        "product_name": "SMITH&NEPHEW Dressing 63",
+        "protocol_step_option": "standard"
+      },
+      {
+        "manufacturer": "3M",
+        "sku": "3M0027",
+        "hcpcs_code": "A6287",
+        "product_name": "3M Dressing 27",
+        "protocol_step_option": "custom"
+      },
+      {
+        "manufacturer": "SMITH&NEPHEW",
+        "sku": "SMI0059",
+        "hcpcs_code": "A62119",
+        "product_name": "SMITH&NEPHEW Dressing 59",
+        "protocol_step_option": "standard"
+      },
+      {
+        "manufacturer": "CARDINAL",
+        "sku": "CAR0077",
+        "hcpcs_code": "A62137",
+        "product_name": "CARDINAL Dressing 77",
+        "protocol_step_option": "standard"
+      }
+    ]
+  },
+  {
+    "partner_id": "DME013",
+    "partner_name": "Partner 13 Medical Supplies",
+    "contact_info": {
+      "phone": "+1-800-555-1013",
+      "email": "contact@partner13medicalsupplies.com"
+    },
+    "status": "active",
+    "contracted_payor_status": true,
+    "partner_rating": 4.8,
+    "previous_delivery_satisfaction_rating": 3.7,
+    "state": "TX",
+    "contracts": [
+      {
+        "contract_id": "CON130",
+        "type": "standard",
+        "delivery_SLA": {
+          "product_type_id": "PT023",
+          "payor_type_id": "PAYOR009",
+          "expected_delivery_days": 3
+        },
+        "document_id": "DOC130"
+      },
+      {
+        "contract_id": "CON131",
+        "type": "non-exclusive",
+        "delivery_SLA": {
+          "product_type_id": "PT062",
+          "payor_type_id": "PAYOR003",
+          "expected_delivery_days": 2
+        },
+        "document_id": "DOC131"
+      }
+    ],
+    "delivery_sla": [
+      {
+        "delivery_id": "DEL130",
+        "product_type_id": "PT019",
+        "payor_type_id": "PAYOR006",
+        "expected_delivery_days": 5
+      },
+      {
+        "delivery_id": "DEL131",
+        "product_type_id": "PT086",
+        "payor_type_id": "PAYOR008",
+        "expected_delivery_days": 3
+      },
+      {
+        "delivery_id": "DEL132",
+        "product_type_id": "PT028",
+        "payor_type_id": "PAYOR003",
+        "expected_delivery_days": 3
+      }
+    ],
+    "product_catalog": [
+      {
+        "manufacturer": "DERMARITE",
+        "sku": "DER0064",
+        "hcpcs_code": "A62124",
+        "product_name": "DERMARITE Dressing 64",
+        "protocol_step_option": "standard"
+      },
+      {
+        "manufacturer": "SMITH&NEPHEW",
+        "sku": "SMI0047",
+        "hcpcs_code": "A62107",
+        "product_name": "SMITH&NEPHEW Dressing 47",
+        "protocol_step_option": "custom"
+      },
+      {
+        "manufacturer": "3M",
+        "sku": "3M0002",
+        "hcpcs_code": "A6262",
+        "product_name": "3M Dressing 2",
+        "protocol_step_option": "advanced"
+      },
+      {
+        "manufacturer": "3M",
+        "sku": "3M0021",
+        "hcpcs_code": "A6281",
+        "product_name": "3M Dressing 21",
+        "protocol_step_option": "standard"
+      },
+      {
+        "manufacturer": "SMITH&NEPHEW",
+        "sku": "SMI0063",
+        "hcpcs_code": "A62123",
+        "product_name": "SMITH&NEPHEW Dressing 63",
+        "protocol_step_option": "standard"
+      },
+      {
+        "manufacturer": "3M",
+        "sku": "3M0098",
+        "hcpcs_code": "A62158",
+        "product_name": "3M Dressing 98",
+        "protocol_step_option": "advanced"
+      },
+      {
+        "manufacturer": "DERMARITE",
+        "sku": "DER0009",
+        "hcpcs_code": "A6269",
+        "product_name": "DERMARITE Dressing 9",
+        "protocol_step_option": "advanced"
+      },
+      {
+        "manufacturer": "CARDINAL",
+        "sku": "CAR0034",
+        "hcpcs_code": "A6294",
+        "product_name": "CARDINAL Dressing 34",
+        "protocol_step_option": "advanced"
+      }
+    ]
+  },
+  {
+    "partner_id": "DME014",
+    "partner_name": "Partner 14 Medical Supplies",
+    "contact_info": {
+      "phone": "+1-800-555-1014",
+      "email": "contact@partner14medicalsupplies.com"
+    },
+    "status": "active",
+    "contracted_payor_status": true,
+    "partner_rating": 4.3,
+    "previous_delivery_satisfaction_rating": 4.6,
+    "state": "NY",
+    "contracts": [
+      {
+        "contract_id": "CON140",
+        "type": "non-exclusive",
+        "delivery_SLA": {
+          "product_type_id": "PT020",
+          "payor_type_id": "PAYOR003",
+          "expected_delivery_days": 6
+        },
+        "document_id": "DOC140"
+      },
+      {
+        "contract_id": "CON141",
+        "type": "standard",
+        "delivery_SLA": {
+          "product_type_id": "PT022",
+          "payor_type_id": "PAYOR007",
+          "expected_delivery_days": 2
+        },
+        "document_id": "DOC141"
+      }
+    ],
+    "delivery_sla": [
+      {
+        "delivery_id": "DEL140",
+        "product_type_id": "PT045",
+        "payor_type_id": "PAYOR005",
+        "expected_delivery_days": 2
+      },
+      {
+        "delivery_id": "DEL141",
+        "product_type_id": "PT069",
+        "payor_type_id": "PAYOR005",
+        "expected_delivery_days": 2
+      },
+      {
+        "delivery_id": "DEL142",
+        "product_type_id": "PT083",
+        "payor_type_id": "PAYOR010",
+        "expected_delivery_days": 2
+      }
+    ],
+    "product_catalog": [
+      {
+        "manufacturer": "DERMARITE",
+        "sku": "DER0017",
+        "hcpcs_code": "A6277",
+        "product_name": "DERMARITE Dressing 17",
+        "protocol_step_option": "advanced"
+      },
+      {
+        "manufacturer": "CARDINAL",
+        "sku": "CAR0012",
+        "hcpcs_code": "A6272",
+        "product_name": "CARDINAL Dressing 12",
+        "protocol_step_option": "custom"
+      },
+      {
+        "manufacturer": "3M",
+        "sku": "3M0021",
+        "hcpcs_code": "A6281",
+        "product_name": "3M Dressing 21",
+        "protocol_step_option": "standard"
+      },
+      {
+        "manufacturer": "CARDINAL",
+        "sku": "CAR0032",
+        "hcpcs_code": "A6292",
+        "product_name": "CARDINAL Dressing 32",
+        "protocol_step_option": "custom"
+      },
+      {
+        "manufacturer": "MEDLINE",
+        "sku": "MED0095",
+        "hcpcs_code": "A62155",
+        "product_name": "MEDLINE Dressing 95",
+        "protocol_step_option": "custom"
+      },
+      {
+        "manufacturer": "DERMARITE",
+        "sku": "DER0062",
+        "hcpcs_code": "A62122",
+        "product_name": "DERMARITE Dressing 62",
+        "protocol_step_option": "advanced"
+      },
+      {
+        "manufacturer": "SMITH&NEPHEW",
+        "sku": "SMI0100",
+        "hcpcs_code": "A62160",
+        "product_name": "SMITH&NEPHEW Dressing 100",
+        "protocol_step_option": "custom"
+      },
+      {
+        "manufacturer": "DERMARITE",
+        "sku": "DER0007",
+        "hcpcs_code": "A6267",
+        "product_name": "DERMARITE Dressing 7",
+        "protocol_step_option": "custom"
+      },
+      {
+        "manufacturer": "CARDINAL",
+        "sku": "CAR0077",
+        "hcpcs_code": "A62137",
+        "product_name": "CARDINAL Dressing 77",
+        "protocol_step_option": "standard"
+      },
+      {
+        "manufacturer": "CARDINAL",
+        "sku": "CAR0040",
+        "hcpcs_code": "A62100",
+        "product_name": "CARDINAL Dressing 40",
+        "protocol_step_option": "custom"
+      },
+      {
+        "manufacturer": "DERMARITE",
+        "sku": "DER0082",
+        "hcpcs_code": "A62142",
+        "product_name": "DERMARITE Dressing 82",
+        "protocol_step_option": "standard"
+      },
+      {
+        "manufacturer": "MEDLINE",
+        "sku": "MED0099",
+        "hcpcs_code": "A62159",
+        "product_name": "MEDLINE Dressing 99",
+        "protocol_step_option": "custom"
+      },
+      {
+        "manufacturer": "CARDINAL",
+        "sku": "CAR0061",
+        "hcpcs_code": "A62121",
+        "product_name": "CARDINAL Dressing 61",
+        "protocol_step_option": "advanced"
+      },
+      {
+        "manufacturer": "SMITH&NEPHEW",
+        "sku": "SMI0054",
+        "hcpcs_code": "A62114",
+        "product_name": "SMITH&NEPHEW Dressing 54",
+        "protocol_step_option": "custom"
+      }
+    ]
+  },
+  {
+    "partner_id": "DME015",
+    "partner_name": "Partner 15 Medical Supplies",
+    "contact_info": {
+      "phone": "+1-800-555-1015",
+      "email": "contact@partner15medicalsupplies.com"
+    },
+    "status": "active",
+    "contracted_payor_status": false,
+    "partner_rating": 4.1,
+    "previous_delivery_satisfaction_rating": 3.4,
+    "state": "NY",
+    "contracts": [
+      {
+        "contract_id": "CON150",
+        "type": "exclusive",
+        "delivery_SLA": {
+          "product_type_id": "PT080",
+          "payor_type_id": "PAYOR004",
+          "expected_delivery_days": 3
+        },
+        "document_id": "DOC150"
+      }
+    ],
+    "delivery_sla": [
+      {
+        "delivery_id": "DEL150",
+        "product_type_id": "PT077",
+        "payor_type_id": "PAYOR010",
+        "expected_delivery_days": 3
+      },
+      {
+        "delivery_id": "DEL151",
+        "product_type_id": "PT008",
+        "payor_type_id": "PAYOR007",
+        "expected_delivery_days": 5
+      }
+    ],
+    "product_catalog": [
+      {
+        "manufacturer": "SMITH&NEPHEW",
+        "sku": "SMI0047",
+        "hcpcs_code": "A62107",
+        "product_name": "SMITH&NEPHEW Dressing 47",
+        "protocol_step_option": "custom"
+      },
+      {
+        "manufacturer": "CARDINAL",
+        "sku": "CAR0034",
+        "hcpcs_code": "A6294",
+        "product_name": "CARDINAL Dressing 34",
+        "protocol_step_option": "advanced"
+      },
+      {
+        "manufacturer": "MEDLINE",
+        "sku": "MED0037",
+        "hcpcs_code": "A6297",
+        "product_name": "MEDLINE Dressing 37",
+        "protocol_step_option": "advanced"
+      },
+      {
+        "manufacturer": "CARDINAL",
+        "sku": "CAR0020",
+        "hcpcs_code": "A6280",
+        "product_name": "CARDINAL Dressing 20",
+        "protocol_step_option": "standard"
+      },
+      {
+        "manufacturer": "3M",
+        "sku": "3M0023",
+        "hcpcs_code": "A6283",
+        "product_name": "3M Dressing 23",
+        "protocol_step_option": "custom"
+      },
+      {
+        "manufacturer": "CARDINAL",
+        "sku": "CAR0077",
+        "hcpcs_code": "A62137",
+        "product_name": "CARDINAL Dressing 77",
+        "protocol_step_option": "standard"
+      },
+      {
+        "manufacturer": "MEDLINE",
+        "sku": "MED0014",
+        "hcpcs_code": "A6274",
+        "product_name": "MEDLINE Dressing 14",
+        "protocol_step_option": "standard"
+      },
+      {
+        "manufacturer": "DERMARITE",
+        "sku": "DER0082",
+        "hcpcs_code": "A62142",
+        "product_name": "DERMARITE Dressing 82",
+        "protocol_step_option": "standard"
+      },
+      {
+        "manufacturer": "DERMARITE",
+        "sku": "DER0072",
+        "hcpcs_code": "A62132",
+        "product_name": "DERMARITE Dressing 72",
+        "protocol_step_option": "standard"
+      },
+      {
+        "manufacturer": "MEDLINE",
+        "sku": "MED0068",
+        "hcpcs_code": "A62128",
+        "product_name": "MEDLINE Dressing 68",
+        "protocol_step_option": "advanced"
+      },
+      {
+        "manufacturer": "3M",
+        "sku": "3M0085",
+        "hcpcs_code": "A62145",
+        "product_name": "3M Dressing 85",
+        "protocol_step_option": "custom"
+      }
+    ]
+  },
+  {
+    "partner_id": "DME016",
+    "partner_name": "Partner 16 Medical Supplies",
+    "contact_info": {
+      "phone": "+1-800-555-1016",
+      "email": "contact@partner16medicalsupplies.com"
+    },
+    "status": "inactive",
+    "contracted_payor_status": true,
+    "partner_rating": 3.7,
+    "previous_delivery_satisfaction_rating": 4.4,
+    "state": "CA",
+    "contracts": [
+      {
+        "contract_id": "CON160",
+        "type": "standard",
+        "delivery_SLA": {
+          "product_type_id": "PT058",
+          "payor_type_id": "PAYOR007",
+          "expected_delivery_days": 3
+        },
+        "document_id": "DOC160"
+      }
+    ],
+    "delivery_sla": [
+      {
+        "delivery_id": "DEL160",
+        "product_type_id": "PT047",
+        "payor_type_id": "PAYOR004",
+        "expected_delivery_days": 2
+      },
+      {
+        "delivery_id": "DEL161",
+        "product_type_id": "PT045",
+        "payor_type_id": "PAYOR008",
+        "expected_delivery_days": 4
+      },
+      {
+        "delivery_id": "DEL162",
+        "product_type_id": "PT058",
+        "payor_type_id": "PAYOR001",
+        "expected_delivery_days": 7
+      }
+    ],
+    "product_catalog": [
+      {
+        "manufacturer": "MEDLINE",
+        "sku": "MED0060",
+        "hcpcs_code": "A62120",
+        "product_name": "MEDLINE Dressing 60",
+        "protocol_step_option": "standard"
+      },
+      {
+        "manufacturer": "MEDLINE",
+        "sku": "MED0008",
+        "hcpcs_code": "A6268",
+        "product_name": "MEDLINE Dressing 8",
+        "protocol_step_option": "advanced"
+      },
+      {
+        "manufacturer": "MEDLINE",
+        "sku": "MED0014",
+        "hcpcs_code": "A6274",
+        "product_name": "MEDLINE Dressing 14",
+        "protocol_step_option": "standard"
+      },
+      {
+        "manufacturer": "SMITH&NEPHEW",
+        "sku": "SMI0100",
+        "hcpcs_code": "A62160",
+        "product_name": "SMITH&NEPHEW Dressing 100",
+        "protocol_step_option": "custom"
+      },
+      {
+        "manufacturer": "SMITH&NEPHEW",
+        "sku": "SMI0069",
+        "hcpcs_code": "A62129",
+        "product_name": "SMITH&NEPHEW Dressing 69",
+        "protocol_step_option": "advanced"
+      }
+    ]
+  },
+  {
+    "partner_id": "DME017",
+    "partner_name": "Partner 17 Medical Supplies",
+    "contact_info": {
+      "phone": "+1-800-555-1017",
+      "email": "contact@partner17medicalsupplies.com"
+    },
+    "status": "active",
+    "contracted_payor_status": true,
+    "partner_rating": 4.0,
+    "previous_delivery_satisfaction_rating": 3.4,
+    "state": "TX",
+    "contracts": [
+      {
+        "contract_id": "CON170",
+        "type": "preferred",
+        "delivery_SLA": {
+          "product_type_id": "PT048",
+          "payor_type_id": "PAYOR001",
+          "expected_delivery_days": 6
+        },
+        "document_id": "DOC170"
+      }
+    ],
+    "delivery_sla": [
+      {
+        "delivery_id": "DEL170",
+        "product_type_id": "PT039",
+        "payor_type_id": "PAYOR005",
+        "expected_delivery_days": 3
+      },
+      {
+        "delivery_id": "DEL171",
+        "product_type_id": "PT098",
+        "payor_type_id": "PAYOR006",
+        "expected_delivery_days": 5
+      }
+    ],
+    "product_catalog": [
+      {
+        "manufacturer": "3M",
+        "sku": "3M0016",
+        "hcpcs_code": "A6276",
+        "product_name": "3M Dressing 16",
+        "protocol_step_option": "advanced"
+      },
+      {
+        "manufacturer": "3M",
+        "sku": "3M0084",
+        "hcpcs_code": "A62144",
+        "product_name": "3M Dressing 84",
+        "protocol_step_option": "standard"
+      },
+      {
+        "manufacturer": "3M",
+        "sku": "3M0098",
+        "hcpcs_code": "A62158",
+        "product_name": "3M Dressing 98",
+        "protocol_step_option": "advanced"
+      },
+      {
+        "manufacturer": "3M",
+        "sku": "3M0042",
+        "hcpcs_code": "A62102",
+        "product_name": "3M Dressing 42",
+        "protocol_step_option": "advanced"
+      },
+      {
+        "manufacturer": "CARDINAL",
+        "sku": "CAR0070",
+        "hcpcs_code": "A62130",
+        "product_name": "CARDINAL Dressing 70",
+        "protocol_step_option": "advanced"
+      },
+      {
+        "manufacturer": "MEDLINE",
+        "sku": "MED0001",
+        "hcpcs_code": "A6261",
+        "product_name": "MEDLINE Dressing 1",
+        "protocol_step_option": "custom"
+      },
+      {
+        "manufacturer": "MEDLINE",
+        "sku": "MED0046",
+        "hcpcs_code": "A62106",
+        "product_name": "MEDLINE Dressing 46",
+        "protocol_step_option": "advanced"
+      },
+      {
+        "manufacturer": "CARDINAL",
+        "sku": "CAR0029",
+        "hcpcs_code": "A6289",
+        "product_name": "CARDINAL Dressing 29",
+        "protocol_step_option": "advanced"
+      },
+      {
+        "manufacturer": "CARDINAL",
+        "sku": "CAR0093",
+        "hcpcs_code": "A62153",
+        "product_name": "CARDINAL Dressing 93",
+        "protocol_step_option": "advanced"
+      },
+      {
+        "manufacturer": "CARDINAL",
+        "sku": "CAR0012",
+        "hcpcs_code": "A6272",
+        "product_name": "CARDINAL Dressing 12",
+        "protocol_step_option": "custom"
+      },
+      {
+        "manufacturer": "SMITH&NEPHEW",
+        "sku": "SMI0086",
+        "hcpcs_code": "A62146",
+        "product_name": "SMITH&NEPHEW Dressing 86",
+        "protocol_step_option": "standard"
+      },
+      {
+        "manufacturer": "MEDLINE",
+        "sku": "MED0099",
+        "hcpcs_code": "A62159",
+        "product_name": "MEDLINE Dressing 99",
+        "protocol_step_option": "custom"
+      },
+      {
+        "manufacturer": "DERMARITE",
+        "sku": "DER0050",
+        "hcpcs_code": "A62110",
+        "product_name": "DERMARITE Dressing 50",
+        "protocol_step_option": "advanced"
+      }
+    ]
+  },
+  {
+    "partner_id": "DME018",
+    "partner_name": "Partner 18 Medical Supplies",
+    "contact_info": {
+      "phone": "+1-800-555-1018",
+      "email": "contact@partner18medicalsupplies.com"
+    },
+    "status": "active",
+    "contracted_payor_status": true,
+    "partner_rating": 3.5,
+    "previous_delivery_satisfaction_rating": 4.0,
+    "state": "CA",
+    "contracts": [
+      {
+        "contract_id": "CON180",
+        "type": "exclusive",
+        "delivery_SLA": {
+          "product_type_id": "PT066",
+          "payor_type_id": "PAYOR010",
+          "expected_delivery_days": 7
+        },
+        "document_id": "DOC180"
+      },
+      {
+        "contract_id": "CON181",
+        "type": "standard",
+        "delivery_SLA": {
+          "product_type_id": "PT009",
+          "payor_type_id": "PAYOR009",
+          "expected_delivery_days": 6
+        },
+        "document_id": "DOC181"
+      }
+    ],
+    "delivery_sla": [
+      {
+        "delivery_id": "DEL180",
+        "product_type_id": "PT021",
+        "payor_type_id": "PAYOR002",
+        "expected_delivery_days": 6
+      },
+      {
+        "delivery_id": "DEL181",
+        "product_type_id": "PT014",
+        "payor_type_id": "PAYOR009",
+        "expected_delivery_days": 7
+      },
+      {
+        "delivery_id": "DEL182",
+        "product_type_id": "PT056",
+        "payor_type_id": "PAYOR003",
+        "expected_delivery_days": 5
+      }
+    ],
+    "product_catalog": [
+      {
+        "manufacturer": "CARDINAL",
+        "sku": "CAR0034",
+        "hcpcs_code": "A6294",
+        "product_name": "CARDINAL Dressing 34",
+        "protocol_step_option": "advanced"
+      },
+      {
+        "manufacturer": "SMITH&NEPHEW",
+        "sku": "SMI0065",
+        "hcpcs_code": "A62125",
+        "product_name": "SMITH&NEPHEW Dressing 65",
+        "protocol_step_option": "advanced"
+      },
+      {
+        "manufacturer": "3M",
+        "sku": "3M0011",
+        "hcpcs_code": "A6271",
+        "product_name": "3M Dressing 11",
+        "protocol_step_option": "standard"
+      },
+      {
+        "manufacturer": "MEDLINE",
+        "sku": "MED0060",
+        "hcpcs_code": "A62120",
+        "product_name": "MEDLINE Dressing 60",
+        "protocol_step_option": "standard"
+      },
+      {
+        "manufacturer": "3M",
+        "sku": "3M0010",
+        "hcpcs_code": "A6270",
+        "product_name": "3M Dressing 10",
+        "protocol_step_option": "custom"
+      },
+      {
+        "manufacturer": "CARDINAL",
+        "sku": "CAR0013",
+        "hcpcs_code": "A6273",
+        "product_name": "CARDINAL Dressing 13",
+        "protocol_step_option": "standard"
+      },
+      {
+        "manufacturer": "MEDLINE",
+        "sku": "MED0091",
+        "hcpcs_code": "A62151",
+        "product_name": "MEDLINE Dressing 91",
+        "protocol_step_option": "custom"
+      },
+      {
+        "manufacturer": "MEDLINE",
+        "sku": "MED0004",
+        "hcpcs_code": "A6264",
+        "product_name": "MEDLINE Dressing 4",
+        "protocol_step_option": "advanced"
+      },
+      {
+        "manufacturer": "DERMARITE",
+        "sku": "DER0067",
+        "hcpcs_code": "A62127",
+        "product_name": "DERMARITE Dressing 67",
+        "protocol_step_option": "standard"
+      },
+      {
+        "manufacturer": "CARDINAL",
+        "sku": "CAR0061",
+        "hcpcs_code": "A62121",
+        "product_name": "CARDINAL Dressing 61",
+        "protocol_step_option": "advanced"
+      }
+    ]
+  },
+  {
+    "partner_id": "DME019",
+    "partner_name": "Partner 19 Medical Supplies",
+    "contact_info": {
+      "phone": "+1-800-555-1019",
+      "email": "contact@partner19medicalsupplies.com"
+    },
+    "status": "active",
+    "contracted_payor_status": true,
+    "partner_rating": 3.9,
+    "previous_delivery_satisfaction_rating": 3.9,
+    "state": "NY",
+    "contracts": [
+      {
+        "contract_id": "CON190",
+        "type": "non-exclusive",
+        "delivery_SLA": {
+          "product_type_id": "PT053",
+          "payor_type_id": "PAYOR008",
+          "expected_delivery_days": 2
+        },
+        "document_id": "DOC190"
+      }
+    ],
+    "delivery_sla": [
+      {
+        "delivery_id": "DEL190",
+        "product_type_id": "PT013",
+        "payor_type_id": "PAYOR003",
+        "expected_delivery_days": 7
+      }
+    ],
+    "product_catalog": [
+      {
+        "manufacturer": "3M",
+        "sku": "3M0011",
+        "hcpcs_code": "A6271",
+        "product_name": "3M Dressing 11",
+        "protocol_step_option": "standard"
+      },
+      {
+        "manufacturer": "3M",
+        "sku": "3M0016",
+        "hcpcs_code": "A6276",
+        "product_name": "3M Dressing 16",
+        "protocol_step_option": "advanced"
+      },
+      {
+        "manufacturer": "DERMARITE",
+        "sku": "DER0073",
+        "hcpcs_code": "A62133",
+        "product_name": "DERMARITE Dressing 73",
+        "protocol_step_option": "custom"
+      },
+      {
+        "manufacturer": "CARDINAL",
+        "sku": "CAR0070",
+        "hcpcs_code": "A62130",
+        "product_name": "CARDINAL Dressing 70",
+        "protocol_step_option": "advanced"
+      },
+      {
+        "manufacturer": "SMITH&NEPHEW",
+        "sku": "SMI0055",
+        "hcpcs_code": "A62115",
+        "product_name": "SMITH&NEPHEW Dressing 55",
+        "protocol_step_option": "custom"
+      },
+      {
+        "manufacturer": "SMITH&NEPHEW",
+        "sku": "SMI0069",
+        "hcpcs_code": "A62129",
+        "product_name": "SMITH&NEPHEW Dressing 69",
+        "protocol_step_option": "advanced"
+      },
+      {
+        "manufacturer": "3M",
+        "sku": "3M0023",
+        "hcpcs_code": "A6283",
+        "product_name": "3M Dressing 23",
+        "protocol_step_option": "custom"
+      },
+      {
+        "manufacturer": "MEDLINE",
+        "sku": "MED0026",
+        "hcpcs_code": "A6286",
+        "product_name": "MEDLINE Dressing 26",
+        "protocol_step_option": "custom"
+      },
+      {
+        "manufacturer": "SMITH&NEPHEW",
+        "sku": "SMI0003",
+        "hcpcs_code": "A6263",
+        "product_name": "SMITH&NEPHEW Dressing 3",
+        "protocol_step_option": "standard"
+      },
+      {
+        "manufacturer": "DERMARITE",
+        "sku": "DER0072",
+        "hcpcs_code": "A62132",
+        "product_name": "DERMARITE Dressing 72",
+        "protocol_step_option": "standard"
+      },
+      {
+        "manufacturer": "CARDINAL",
+        "sku": "CAR0077",
+        "hcpcs_code": "A62137",
+        "product_name": "CARDINAL Dressing 77",
+        "protocol_step_option": "standard"
+      }
+    ]
+  },
+  {
+    "partner_id": "DME020",
+    "partner_name": "Partner 20 Medical Supplies",
+    "contact_info": {
+      "phone": "+1-800-555-1020",
+      "email": "contact@partner20medicalsupplies.com"
+    },
+    "status": "inactive",
+    "contracted_payor_status": false,
+    "partner_rating": 4.1,
+    "previous_delivery_satisfaction_rating": 4.6,
+    "state": "NY",
+    "contracts": [
+      {
+        "contract_id": "CON200",
+        "type": "exclusive",
+        "delivery_SLA": {
+          "product_type_id": "PT013",
+          "payor_type_id": "PAYOR010",
+          "expected_delivery_days": 2
+        },
+        "document_id": "DOC200"
+      },
+      {
+        "contract_id": "CON201",
+        "type": "exclusive",
+        "delivery_SLA": {
+          "product_type_id": "PT034",
+          "payor_type_id": "PAYOR008",
+          "expected_delivery_days": 5
+        },
+        "document_id": "DOC201"
+      }
+    ],
+    "delivery_sla": [
+      {
+        "delivery_id": "DEL200",
+        "product_type_id": "PT071",
+        "payor_type_id": "PAYOR010",
+        "expected_delivery_days": 4
+      },
+      {
+        "delivery_id": "DEL201",
+        "product_type_id": "PT018",
+        "payor_type_id": "PAYOR003",
+        "expected_delivery_days": 7
+      },
+      {
+        "delivery_id": "DEL202",
+        "product_type_id": "PT008",
+        "payor_type_id": "PAYOR001",
+        "expected_delivery_days": 5
+      }
+    ],
+    "product_catalog": [
+      {
+        "manufacturer": "DERMARITE",
+        "sku": "DER0050",
+        "hcpcs_code": "A62110",
+        "product_name": "DERMARITE Dressing 50",
+        "protocol_step_option": "advanced"
+      },
+      {
+        "manufacturer": "3M",
+        "sku": "3M0010",
+        "hcpcs_code": "A6270",
+        "product_name": "3M Dressing 10",
+        "protocol_step_option": "custom"
+      },
+      {
+        "manufacturer": "MEDLINE",
+        "sku": "MED0060",
+        "hcpcs_code": "A62120",
+        "product_name": "MEDLINE Dressing 60",
+        "protocol_step_option": "standard"
+      },
+      {
+        "manufacturer": "3M",
+        "sku": "3M0076",
+        "hcpcs_code": "A62136",
+        "product_name": "3M Dressing 76",
+        "protocol_step_option": "custom"
+      },
+      {
+        "manufacturer": "MEDLINE",
+        "sku": "MED0024",
+        "hcpcs_code": "A6284",
+        "product_name": "MEDLINE Dressing 24",
+        "protocol_step_option": "standard"
+      },
+      {
+        "manufacturer": "SMITH&NEPHEW",
+        "sku": "SMI0092",
+        "hcpcs_code": "A62152",
+        "product_name": "SMITH&NEPHEW Dressing 92",
+        "protocol_step_option": "advanced"
+      }
+    ]
+  }
+]
