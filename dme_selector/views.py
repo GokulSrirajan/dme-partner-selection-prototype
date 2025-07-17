@@ -21,9 +21,11 @@ evaluate each partner and produce an output.
 
 Selection Logic:
 - The best partner must be able to fulfill all the requested products if not fullfilled don't recommend a best partner.
-- Even if there is a best partner suggest alternatives if available
+- If a best partner exists, always list other partners who also fulfill all products as alternatives.
+- If there is a best partner do not suggest split_delivery
 - Use partner_rating, previous_delivery_satisfaction_rating, and contract quality as tie-breakers.
 - If no single partner can fulfill all products, provide a 'split_delivery' — a set of partners that collectively fulfill the full order.
+- do not consider the status
 
 Output Format:
 Respond ONLY in JSON with the following format:
@@ -55,8 +57,10 @@ Instructions:
 - "summary" should be a one-line explanation describing why the selected partner (or set) was chosen.
 - "best_partner" must fulfill all requested products.
 - "alternatives" are backup partners that also fulfill all products but scored lower.
-- Only include "split_delivery" if no single partner can fulfill the entire order — list the product names each can provide.
+- Only include suggestions in "split_delivery" if no single partner can fulfill the entire order — list the product names each can provide.
 - All output must be strictly in JSON format. Do not explain outside the JSON block.
+
+make sure to consider all the instructions
 
 Medical Order:
 {order}
@@ -137,16 +141,14 @@ def select_dme_partner(request):
         response = llm_model.invoke(formatted_prompt)
         content = response.content.strip()
         
-        # Clean Markdown code block (e.g., ```json\n ... \n```)
+        # Clean Markdown
         if content.startswith("```"):
             content = content.strip("`").strip()
-            # Remove the leading language if exists
             if content.startswith("json\n"):
                 content = content[len("json\n"):]
             elif content.startswith("json\r\n"):
                 content = content[len("json\r\n"):]
 
-        # Now it's clean JSON
         result_json = json.loads(content)
 
         return JsonResponse(result_json)
